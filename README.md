@@ -18,6 +18,8 @@ Disable spray when room is dark using a light dependent resistor (LDR).
 
 *Method.* The Glade spray have a manual button to trigger the spray. When this button is held down, the spray is disabled. To automatize the button press, a MOSFET is attached in parallel to this button and is enabled by a voltage divider formed by a LDR and a potentiometer. The potentiometer and LDR are set such that the MOSFET is triggered when the room is dark (LDR has high electrical resistance).
 
+<img src="img/silentglade_schem.png" alt="alt text" width="200" >
+
 ## Components
 
 In addition to a working automatic spray,
