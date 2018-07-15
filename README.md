@@ -1,7 +1,8 @@
 # silent-glade
 Hacking of a automatic aroma spray to reduce night-time noise
 
-<img src="img/front.jpg" alt="alt text" width="300" >
+| <img src="img/front.png" height="500" > | <img src="img/inside.png" height="500" > |
+| -- | -- |
 
 ## Problem
 
@@ -14,18 +15,19 @@ Hacking of a automatic aroma spray to reduce night-time noise
 
 Disable spray when room is dark using a light dependent resistor (LDR).
 
-<img src="img/inside.jpg" alt="alt text" width="300" >
+| <img src="img/front_inside.png" alt="alt text" width="300" > | <img src="img/back_inside.png" alt="alt text" width="300" > |
+| -- | -- |
 
 *Method.* The Glade spray have a manual button to trigger the spray. When this button is held down, the spray is disabled. To automatize the button press, a MOSFET is attached in parallel to this button and is enabled by a voltage divider formed by a LDR and a potentiometer. The potentiometer and LDR are set such that the MOSFET is triggered when the room is dark (LDR has high electrical resistance).
 
-<img src="img/silentglade_schem.png" alt="alt text" width="200" >
+<img src="img/silentglade_schem.png" width="400" >
 
 ## Components
 
 In addition to a working automatic spray,
 
 - 10 k&Omega; potentiometer
-- LDR GL55
+- 3 x LDR GL55
 - MOSFET ZVN2110
 
 ## Future Work
